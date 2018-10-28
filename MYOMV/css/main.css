@@ -1,0 +1,47 @@
+/*CSS Stylesheet*/
+
+/*General Information*/
+body, html {
+    overflow: hidden;
+    background-color: #000000;
+    background-image: url("../media/img/mainbg.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Fonts*/
+h1, h2, h3, h4, h5, h6, a, p, ul, li, ol, legend {
+    font-family: "Calibri", "Helvetica", "Sans-Serif";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/*Media*/
+#index {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+/*DIVs*/
+#indexcontent {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #000000;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+}
+
+#WhatToDo {
+    margin-left:auto; 
+    margin-right: auto; 
+    margin-top: 15%; 
+    width: 95%;
+}

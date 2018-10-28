@@ -1,0 +1,112 @@
+/*FNN Video Stylesheet*/
+
+/*General Information*/
+html, body {
+    background-color: #1c1c1c;
+    width: 100%;
+    padding-top: 25px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #ffffff;
+    font-family: "Calibri", "Helvetica", "Sans-Serif";
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Video Player*/
+#videoplayer{
+    width: 60%;
+}
+
+#videoarea {
+    float: left;
+    width: 100%;
+    height: 500px;
+    background: #000000;
+}
+
+/*Playlist*/
+#videoplaylist {
+    width: 40%;
+    height: 500px;
+    background: #1c1c1c;
+    overflow-y: scroll;
+}
+
+#playlistitem {
+    width: 100%;
+    background: #1c1c1c;
+    list-style-type: none;
+}
+
+.videoitem {
+    width: 100%;
+    background: #1c1c1c;
+}
+
+.videohr {
+    border-color: white;
+    color: white; 
+}
+
+.videotext1, .videotext2, .videotext3, .videotext4, .videotext5 {
+    padding: none;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.videotitle1, .videotitle2, .videotitle3, .videotitle4, .videotitle5 {
+    padding: none;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.videotable {
+}
+
+.videoimage1, .videoimage2, .videoimage3, .videoimage4, .videoimage5 {
+    width: 100px;
+}
+
+
+
+#playlistitem li{
+    cursor:pointer;
+    padding:8px;
+}
+
+#playlistitem li:hover{
+    color:black;                        
+}
+
+/*.videotext1:hover{
+    color: black;
+}*/
+
+
+
+
+.card, .card-footer{
+    background:#686868;
+    border:none;
+}
+/*Footer*/
+#footer {
+    background: #222222;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 0.75rem;
+}
+
+.footertext {
+    color: #ffffff;
+    font-family: "Calibri", "Helvetica", "Sans-Serif";
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.0;
+}

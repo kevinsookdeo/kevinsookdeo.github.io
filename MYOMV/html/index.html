@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta http-equiv="refresh" content="300; URL='https://google.com'" />
+        <!--CSS Files-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../css/styles.css">
+        <!--Javascript Files-->
+            <script src="../js/jquery-1.11.1.min.js"></script>
+            <script src="../js/mousetrap.min.js"></script>
+            <script src="../js/jsmain.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+            <script src="../js/p5.sound.js"></script>
+            <script src="../js/p5.dom.js"></script>
+            <script src="../js/p5.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <!--Title-->
+            <title>Make A Music Video</title>
+        <!--Preload-->
+            <!--audio src="../media/audio/background.wav" id="background" preload="auto" autoplay loop></audio-->
+            <audio src="../media/audio/01.mp3" id="01" preload="auto"></audio>
+            <audio src="../media/audio/02.mp3" id="02" preload="auto"></audio>
+            <audio src="../media/audio/03.mp3" id="03" preload="auto"></audio>
+            <audio src="../media/audio/04.mp3" id="04" preload="auto"></audio>
+            <audio src="../media/audio/05.mp3" id="05" preload="auto"></audio>
+            <audio src="../media/audio/06.mp3" id="06" preload="auto"></audio>
+            <audio src="../media/audio/07.mp3" id="07" preload="auto"></audio>
+            <audio src="../media/audio/08.mp3" id="08" preload="auto"></audio>
+            <audio src="../media/audio/09.mp3" id="09" preload="auto"></audio>
+            <audio src="../media/audio/10.mp3" id="10" preload="auto"></audio>
+            <audio src="../media/audio/11.mp3" id="11" preload="auto"></audio>
+            <audio src="../media/audio/12.mp3" id="12" preload="auto"></audio>
+            <audio src="../media/audio/13.mp3" id="13" preload="auto"></audio>
+            <audio src="../media/audio/14.mp3" id="14" preload="auto"></audio>
+            <audio src="../media/audio/15.mp3" id="15" preload="auto"></audio>
+            <audio src="../media/audio/16.mp3" id="16" preload="auto"></audio>
+            <audio src="../media/audio/17.mp3" id="17" preload="auto"></audio>
+            <audio src="../media/audio/18.mp3" id="18" preload="auto"></audio>
+            <audio src="../media/audio/19.mp3" id="19" preload="auto"></audio>
+            <audio src="../media/audio/20.mp3" id="20" preload="auto"></audio>
+            <audio src="../media/audio/21.mp3" id="21" preload="auto"></audio>
+            <audio src="../media/audio/22.mp3" id="22" preload="auto"></audio>
+            <audio src="../media/audio/23.mp3" id="23" preload="auto"></audio>
+            <audio src="../media/audio/24.mp3" id="24" preload="auto"></audio>
+            <audio src="../media/audio/25.mp3" id="25" preload="auto"></audio>
+            <audio src="../media/audio/26.mp3" id="26" preload="auto"></audio>
+            <audio src="../media/audio/27.mp3" id="27" preload="auto"></audio>
+            <audio src="../media/audio/28.mp3" id="28" preload="auto"></audio>
+            <audio src="../media/audio/29.mp3" id="29" preload="auto"></audio>
+            <audio src="../media/audio/30.mp3" id="30" preload="auto"></audio>
+            <audio src="../media/audio/31.mp3" id="31" preload="auto"></audio>
+            <audio src="../media/audio/32.mp3" id="32" preload="auto"></audio>
+            <audio src="../media/audio/33.mp3" id="33" preload="auto"></audio>
+            <audio src="../media/audio/34.mp3" id="34" preload="auto"></audio>
+            <audio src="../media/audio/35.mp3" id="35" preload="auto"></audio>
+            <audio src="../media/audio/36.mp3" id="36" preload="auto"></audio>
+            <audio src="../media/audio/37.mp3" id="37" preload="auto"></audio>
+            <!--NG Files-->
+            <audio src="../media/audio/001.mp3" id="001" preload="auto"></audio>
+            <audio src="../media/audio/002.wav" id="002" preload="auto"></audio>
+            <audio src="../media/audio/003.wav" id="003" preload="auto"></audio>
+            <audio src="../media/audio/004.mp3" id="004" preload="auto"></audio>
+            <audio src="../media/audio/005.mp3" id="005" preload="auto"></audio>
+            <audio src="../media/audio/006.mp3" id="006" preload="auto"></audio>
+            <audio src="../media/audio/007.wav" id="007" preload="auto"></audio>
+            <audio src="../media/audio/008.mp3" id="008" preload="auto"></audio>
+            <audio src="../media/audio/009.mp3" id="009" preload="auto"></audio>
+            <audio src="../media/audio/010.mp3" id="010" preload="auto"></audio>
+            <audio src="../media/audio/011.mp3" id="011" preload="auto"></audio>
+            <audio src="../media/audio/012.mp3" id="012" preload="auto"></audio>
+            <audio src="../media/audio/013.mp3" id="013" preload="auto"></audio>
+            <audio src="../media/audio/014.wav" id="014" preload="auto"></audio>
+            <audio src="../media/audio/015.wav" id="015" preload="auto"></audio>
+            <audio src="../media/audio/016.wav" id="016" preload="auto"></audio>
+            <audio src="../media/audio/017.wav" id="017" preload="auto"></audio>
+            <audio src="../media/audio/018.wav" id="018" preload="auto"></audio>
+            <audio src="../media/audio/040.wav" id="040" preload="auto"></audio>
+            
+    </head>
+    <body>
+        <legend id="WhatToDo">
+            Wait for the music to begin, then... <br />
+            Press any button on your keyboard or click anywhere on the canvas and see what happens!
+            </legend>
+        <!--Scripts-->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+            
+    </body>
+</html>

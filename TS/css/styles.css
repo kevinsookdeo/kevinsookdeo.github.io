@@ -1,0 +1,109 @@
+/*styles.css*/
+
+/*Body*/
+html, body {
+    height: 100%;
+    background-color: #000000;
+        
+}
+
+.body {
+    width: 80%;
+	margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Text*/
+h1,h2,h3,h4,h5,h6,hr,p {
+    color: white;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 0.75em;
+}
+
+h3.category {
+    text-align: center;
+}
+
+select.category {
+    float: right;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/*Navigation Bar*/
+.navbar-nav{
+    margin: auto;
+}
+
+/*
+#nav-main{
+    position: fixed;
+}
+
+#navbarSupportedContent {
+    padding: 0 0 0 9%;
+}
+
+.nav-item{
+    padding: 0 5px 0 5px;
+}*/
+
+
+/*Carousel*/
+.caption-text {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+/*FeaturedHome*/
+.featuredhome {
+    width: 100%;
+}
+
+.card {
+    background-color: black;
+    padding: 15px;
+}
+
+/*FeaturedAll*/
+.FeaturedAll {
+    display: inline-block;
+}
+
+
+/*Footer*/
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+/*Trailer Information*/
+.Info {
+    width: 100%;
+}
+
+
+
+
