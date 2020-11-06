@@ -1,0 +1,71 @@
+/*Custom CSS Stylesheet for Julianna Yank*/
+
+/*Top-Level Body*/
+body {
+  /*background-color: #f6f6f6; Changed 20201105 to accompany JPG Graphics with white background*/ 
+    background-color: #ffffff;
+}
+
+.fpo {
+    color: #6a0dad;
+}
+
+/*.container {
+    width:100%;
+}*/
+
+/*Font*/
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+}
+
+.letzb{
+    text-decoration: underline;
+    color: #BB90FF;
+}
+
+.radiate {
+    color:#3A95E3;
+    text-decoration: underline;
+}
+
+.text-none {
+    color: inherit;
+}
+
+.descriptive-header {
+    font-weight: 100;
+    opacity: 75%;
+}
+
+/*Other*/
+img {
+    width:100%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.love-sketch {
+    background-image:url(../img/about/heart.PNG);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+.about {
+    background-color: #f8fcff;
+    border-style: solid;
+    border-color: #f6f6f6;
+    
+}
+
+/*.about-hero {
+    width:75%;
+    float:right;
+}*/
