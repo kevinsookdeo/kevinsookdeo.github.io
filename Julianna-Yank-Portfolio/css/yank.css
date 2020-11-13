@@ -43,6 +43,88 @@ p {
     opacity: 75%;
 }
 
+
+/*LetzB DIVs*/
+.megan-zucker {
+    background-color: #fef6e3;
+    border-radius: 10px;
+}
+
+.jennifer-lee {
+    background-color: #e6e6fe;
+    border-radius: 10px;
+}
+
+.shannon-smith {
+    background-color: #f3a8ad;
+    border-radius: 10px;
+}
+
+.competitive-pros {
+    background-color: #deffe4;
+    border-radius: 10px;
+}
+
+.competitive-cons {
+ background-color: #ffe4e4;
+    border-radius: 10px;   
+}
+
+.competitive-logo {
+    background-color: #4e4e4e;
+    border-radius: 10px;
+}
+
+.competitive-logo img {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.competitive-breakdown-table {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.letzb-quote-right {
+    background: rgb(155,158,225);
+    background: -webkit-linear-gradient(left, rgba(155,158,225,1) 0%, rgba(165,161,222,1) 50%, rgba(185,164,220,1) 100%);
+    background: -o-linear-gradient(left, rgba(155,158,225,1) 0%, rgba(165,161,222,1) 50%, rgba(185,164,220,1) 100%);
+    background: linear-gradient(to right, rgba(155,158,225,1) 0%, rgba(165,161,222,1) 50%, rgba(185,164,220,1) 100%);
+    width:75%;
+    float:right;
+    padding: 10px;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;  
+}
+
+.letzb-quote-left {
+    background: rgb(185,164,220);
+background: -webkit-linear-gradient(left, rgba(185,164,220,1) 0%, rgba(165,161,222,1) 50%, rgba(155,158,225,1) 100%);
+background: -o-linear-gradient(left, rgba(185,164,220,1) 0%, rgba(165,161,222,1) 50%, rgba(155,158,225,1) 100%);
+background: linear-gradient(to right, rgba(185,164,220,1) 0%, rgba(165,161,222,1) 50%, rgba(155,158,225,1) 100%);
+
+    width:75%;
+    float: left;
+    padding: 10px;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;  
+}
+
 /*Other*/
 img {
     width:100%;
@@ -100,3 +182,4 @@ img {
     width:75%;
     float:right;
 }*/
+
