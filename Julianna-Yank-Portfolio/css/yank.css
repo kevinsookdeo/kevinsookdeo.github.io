@@ -24,6 +24,11 @@ p {
     font-size: 16px;
 }
 
+p, ul li, table, .table {
+    color: #b7b1b1;
+}
+
+
 .letzb{
     text-decoration: underline;
     color: #BB90FF;
@@ -41,6 +46,7 @@ p {
 .descriptive-header {
     font-weight: 100;
     opacity: 75%;
+    color: #b7b1b1;
 }
 
 
@@ -125,8 +131,19 @@ background: linear-gradient(to right, rgba(185,164,220,1) 0%, rgba(165,161,222,1
     border-bottom-right-radius: 15px;  
 }
 
+.letzb-video {
+    width:65%;
+    margin: 0 auto;
+    text-align: center;
+    display:block;
+    padding-bottom:10px;
+}
 /*Other*/
 img {
+    width:100%;
+}
+
+video {
     width:100%;
 }
 
