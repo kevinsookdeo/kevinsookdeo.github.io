@@ -11,6 +11,21 @@ body {
     color: #DF00FE;
 }
 
+.shadow {
+    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .5));
+}
+
+/*img:hover{
+    transform:scale(1.25);
+    display:inline-flex;
+    position:absolute;
+    transition: 0.3s;
+    z-index:1000000;
+    display:inline-block;
+    position:inherit;
+}*/
+
 /*.container {
     width:100%;
 }*/
@@ -24,7 +39,11 @@ p {
     font-size: 16px;
 }
 
-p, ul li, table, .table {
+p {
+    color: #b7b1b1;
+}
+
+.yank {
     color: #b7b1b1;
 }
 
@@ -54,26 +73,32 @@ p, ul li, table, .table {
 .megan-zucker {
     background-color: #fef6e3;
     border-radius: 10px;
+    color: #000000;
+    
 }
 
 .jennifer-lee {
     background-color: #e6e6fe;
     border-radius: 10px;
+    color: #000000;
 }
 
 .shannon-smith {
     background-color: #f3a8ad;
     border-radius: 10px;
+    color: #000000;
 }
 
 .competitive-pros {
     background-color: #deffe4;
     border-radius: 10px;
+    color: #000000 !important;
 }
 
 .competitive-cons {
  background-color: #ffe4e4;
-    border-radius: 10px;   
+    border-radius: 10px;  
+    color: #000000;
 }
 
 .competitive-logo {
@@ -117,7 +142,6 @@ p, ul li, table, .table {
 background: -webkit-linear-gradient(left, rgba(185,164,220,1) 0%, rgba(165,161,222,1) 50%, rgba(155,158,225,1) 100%);
 background: -o-linear-gradient(left, rgba(185,164,220,1) 0%, rgba(165,161,222,1) 50%, rgba(155,158,225,1) 100%);
 background: linear-gradient(to right, rgba(185,164,220,1) 0%, rgba(165,161,222,1) 50%, rgba(155,158,225,1) 100%);
-
     width:75%;
     float: left;
     padding: 10px;
@@ -195,6 +219,39 @@ video {
     justify-content: center;
 }
 
+.UI-Compare-Bad {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #ff0000;
+    color:#ffffff;
+    display: inline-flex;
+    font-weight: bold;
+}
+
+.UI-Compare-Good {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #00ff00;
+    color:#000000;
+    display: inline-flex;
+    font-weight: bold;
+}
+
+/*.UI-Compare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
 /*.about-hero {
     width:75%;
     float:right;
