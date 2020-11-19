@@ -213,11 +213,15 @@ video {
     width: 40px;
     text-align: center;
     vertical-align: middle;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background: #ff0000;
     color:#ffffff;
-    /*display: table-cell;*/
-    margin: auto;
+    display: table-cell;
+    font-weight: bold;
+    padding: 0px;
+    
 }
 
 .UI-New-Examples {
@@ -239,8 +243,8 @@ video {
 }
 
 .UI-Compare-Bad {
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     text-align: center;
     vertical-align: middle;
     justify-content: center;
@@ -253,8 +257,8 @@ video {
 }
 
 .UI-Compare-Good {
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
     text-align: center;
     vertical-align: middle;
     justify-content: center;
@@ -264,6 +268,10 @@ video {
     color:#000000;
     display: inline-flex;
     font-weight: bold;
+}
+
+.ui-compare-asap {
+    padding:10px;
 }
 
 /*.UI-Compare {
