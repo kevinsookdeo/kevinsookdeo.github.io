@@ -16,6 +16,16 @@ body {
     filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .5));
 }
 
+h1, h2, h3, h4, h5, h6, p, li, div {
+    padding-bottom:5px;
+}
+
+
+.logo-img:hover {
+    transform: scale(1.25);
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
 /*img:hover{
     transform:scale(1.25);
     display:inline-flex;
@@ -171,7 +181,7 @@ background: linear-gradient(to right, rgba(185,164,220,1) 0%, rgba(165,161,222,1
     margin: 0 auto;
     text-align: center;
     display:block;
-    padding-bottom:10px;
+    padding-bottom:20px;
 }
 
 
