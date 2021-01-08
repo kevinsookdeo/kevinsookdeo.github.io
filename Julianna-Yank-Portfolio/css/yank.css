@@ -6,43 +6,24 @@ body {
     background-color: #ffffff;
     font-family: "Source Sans Pro", "Open Sans", "Futura", sans-serif;
 }
-
 .fpo {
     color: #DF00FE;
 }
-
 .shadow {
     -webkit-filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .5));
     filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .5));
 }
-
 h1, h2, h3, h4, h5, h6, p, li, div {
     padding-bottom:12.5px;
 }
-
-
 .logo-img:hover {
     transform: scale(1.25);
     transform: rotate(360deg);
     transition: 1.5s;
 }
-
 .active {
     font-weight: bold;
 }
-/*img:hover{
-    transform:scale(1.25);
-    display:inline-flex;
-    position:absolute;
-    transition: 0.3s;
-    z-index:1000000;
-    display:inline-block;
-    position:inherit;
-}*/
-
-/*.container {
-    width:100%;
-}*/
 
 /*Font*/
 h1, h2 {
@@ -51,41 +32,31 @@ h1, h2 {
 h3, h4, h5, h6, p, li {
     padding-bottom: 5px;
 }
-
 h2 {
     font-weight: 600;
 }
-
 p {
     font-size: 16px;
 }
-
 p, .yank {
-    /*color:#b7b1b1; REPLACED, NOT ADA COMPLIANT*/
     color: #787474;
 }
-
-
 .letzb{
     text-decoration: underline;
     color: #BB90FF;
 }
-
 .radiate {
     color:#3A95E3;
     text-decoration: underline;
 }
-
 .text-none {
     color: inherit;
 }
-
 .descriptive-header {
     font-weight: 100;
     opacity: 75%;
     color: #787474;
 }
-
 
 /*INDEX DIVs*/
 .home-col {
@@ -101,36 +72,30 @@ p, .yank {
     color: #000000;
     
 }
-
 .jennifer-lee {
     background-color: #e6e6fe;
     border-radius: 10px;
     color: #000000;
 }
-
 .shannon-smith {
     background-color: #f3a8ad;
     border-radius: 10px;
     color: #000000;
 }
-
 .competitive-pros {
     background-color: #deffe4;
     border-radius: 10px;
     color: #000000 !important;
 }
-
 .competitive-cons {
  background-color: #ffe4e4;
     border-radius: 10px;  
     color: #000000;
 }
-
 .competitive-logo {
     background-color: #4e4e4e;
     border-radius: 10px;
 }
-
 .competitive-logo img {
     width:50%;
     margin-left: auto;
@@ -138,12 +103,10 @@ p, .yank {
     display: block;
     border-radius: 50%;
 }
-
 .competitive-breakdown-table {
     border-spacing: 10px;
     border-collapse: separate;
 }
-
 .letzb-quote-right {
     background: rgb(155,158,225);
     background: -webkit-linear-gradient(left, rgba(155,158,225,1) 0%, rgba(165,161,222,1) 50%, rgba(185,164,220,1) 100%);
@@ -161,7 +124,6 @@ p, .yank {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;  
 }
-
 .letzb-quote-left {
     background: rgb(185,164,220);
 background: -webkit-linear-gradient(left, rgba(185,164,220,1) 0%, rgba(165,161,222,1) 50%, rgba(155,158,225,1) 100%);
@@ -179,7 +141,6 @@ background: linear-gradient(to right, rgba(185,164,220,1) 0%, rgba(165,161,222,1
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;  
 }
-
 .letzb-video {
     width:65%;
     margin: 0 auto;
@@ -188,39 +149,28 @@ background: linear-gradient(to right, rgba(185,164,220,1) 0%, rgba(165,161,222,1
     padding-bottom:20px;
 }
 
-
 /*RADIATE*/
 .radiate-poster {
     padding:15px;
 }
 
 /*Other*/
-img {
+img, video {
     width:100%;
 }
-
-video {
-    width:100%;
-}
-
 .reverse {
     flex-direction: row-reverse;
 }
-
 .love-sketch {
     background-image:url(../img/about/heart.PNG);
     background-position: right;
     background-repeat: no-repeat;
-    
 }
-
 .about {
     background-color: #f8fcff;
     border-style: solid;
     border-color: #f6f6f6;
-    
 }
-
 .UI-Old-Examples {
     height: 40px;
     width: 40px;
@@ -236,7 +186,6 @@ video {
     padding: 0px;
     
 }
-
 .UI-New-Examples {
     height: 40px;
     width: 40px;
@@ -248,13 +197,11 @@ video {
     color:#000000;
     margin: auto;
 }
-
 .UI-Flex {
     display:flex;
     align-items: center;
     justify-content: center;
 }
-
 .UI-Compare-Bad {
     height: 22px;
     width: 22px;
@@ -268,7 +215,6 @@ video {
     display: inline-flex;
     font-weight: bold;
 }
-
 .UI-Compare-Good {
     height: 22px;
     width: 22px;
@@ -282,34 +228,9 @@ video {
     display: inline-flex;
     font-weight: bold;
 }
-
 .ui-compare-asap {
     padding:10px;
 }
-
-/*.UI-Compare {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-/*.about-hero {
-    width:75%;
-    float:right;
-}*/
-
-/*
-@media (max-width: 767.98px) { html, p {
-        font-size: 1.95rem;
-    } }
-
-
-@media (min-width: 768px) and (max-width: 991.98px) { html, p {
-        font-size: 1.5rem;
-    } }
-
-*/
-
-
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -317,14 +238,6 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-/*blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}*/
 blockquote p {
   display: inline;
 }
